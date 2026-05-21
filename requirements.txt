@@ -1,4 +1,22 @@
+# Core numerical stack
 numpy
-gmsh
+scipy
+pandas
+
+# Visualization and geometry inspection
+matplotlib
 pyvista
+
+# EM simulation / meshing
+gmsh
 emerge
+
+# Deep-learning workflow for inverse-design models
+torch
+torchvision
+torchaudio
+scikit-learn
+
+# Experiment utilities
+tqdm
+h5py
