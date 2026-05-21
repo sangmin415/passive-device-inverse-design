@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Simulation outputs and large generated artifacts
+result/
+results/
+outputs/
+emerge_results/
+s2p/
+png/
+npz/
+log/
+*.s2p
+*.npz
+*.png
+*.vtk
+*.msh
+*.pos
+*.OU
+*.ER
