@@ -28,7 +28,7 @@ passive-device-inverse-design/
 
 ## Technical Overview
 
-The design domain is a 20 mm x 20 mm RF board with a centered 10 mm x 10 mm active pixel region. The random generator uses a 25 x 25 grid with 0.4 mm pixels and variable global density ranges to create diverse conductive layouts.
+The design domain is a 20 mm x 20 mm RF board with a centered 10 mm x 10 mm active pixel region. The random generator uses a 50 x 50 grid with 0.2 mm pixels and variable global density ranges to create diverse conductive layouts.
 
 Simulation settings used by the current pipeline:
 
@@ -36,8 +36,8 @@ Simulation settings used by the current pipeline:
 |---|---|
 | Board size | 20 mm x 20 mm |
 | Active pixel area | 10 mm x 10 mm |
-| Pixel grid | 25 x 25 |
-| Pixel size | 0.4 mm |
+| Pixel grid | 50 x 50 |
+| Pixel size | 0.2 mm |
 | Substrate thickness | 1.2 mm |
 | Relative permittivity | 4.0 |
 | Loss tangent | 0.013 |

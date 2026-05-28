@@ -4,7 +4,7 @@ Random 20 mm x 20 mm bandpass-filter layout generation and EMerge/Gmsh simulatio
 
 ## Files
 
-- `generator_new.py`: creates randomized 25 x 25 pixel layouts in the centered 10 mm x 10 mm active region.
+- `generator_new.py`: creates randomized 50 x 50 pixel layouts in the centered 10 mm x 10 mm active region.
 - `simulation.py`: production simulation entrypoint that exports S-parameters, layout images, and structure arrays.
 - `simulation_gmsh.py`: Gmsh/OpenCASCADE geometry construction helper.
 - `simulation_pyvista.py`: PyVista visualization helper.

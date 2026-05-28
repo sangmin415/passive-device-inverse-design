@@ -6,7 +6,8 @@ Based on user specs for Refactoring
 Key Changes:
 - board_size: 20.0 mm
 - boundary_offset: 5.0 mm
-- pixel_size: 0.4 mm
+- pixel grid: 50 x 50
+- pixel_size: 0.2 mm
 - port width: 1.2 mm, port_y: 10.0 mm
 - Removed Separator logic
 - Removed Chamfer/Diagonal lines (대각전)
@@ -36,7 +37,7 @@ class BPFConfig:
     board_size: float = 20.0
     pixel_boundary: float = 10.0
     boundary_offset: float = 5.0
-    pixel_size: float = 0.4
+    pixel_size: float = 0.2
     
     # Port configuration
     port_width: float = 1.2
